@@ -56,8 +56,8 @@ class _ProdukDetailState extends State<ProdukDetail> {
                           children: [
                             GambarProduk(
                               produk: widget.produk!,
-                              width: 400,
-                              height: 400,
+                              width: 250,
+                              height: 250,
                             ),
                             _productDescription(),
                           ],
@@ -87,8 +87,8 @@ class _ProdukDetailState extends State<ProdukDetail> {
                     children: [
                       GambarProduk(
                         produk: widget.produk!,
-                        width: 300,
-                        height: 300,
+                        width: 200,
+                        height: 200,
                       ),
                       Padding(
                         padding: const EdgeInsets.all(20.0),
